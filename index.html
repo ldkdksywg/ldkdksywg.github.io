@@ -3,29 +3,92 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Меня зовут ФИО</title>
+  <title>Мой сайт</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: Georgia, serif;
+      background-color: #f6f1e9;
+      color: #3d3b36;
+      margin: 0;
+      padding: 40px 20px;
+    }
+    .card {
       max-width: 700px;
       margin: 0 auto;
-      padding: 40px 20px;
-      color: #333;
+      background-color: #fffdf9;
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
     }
-    h1 { color: #2b6cb0; }
-    a { color: #2b6cb0; }
+
+    h1 {
+      color: #3a7d6c;
+      text-align: center;
+      margin-bottom: 5px;
+    }
+
+    .subtitle {
+      text-align: center;
+      color: #d98e4a;
+      font-size: 14px;
+      letter-spacing: 1px;
+      margin-top: 0;
+    }
+
+    h2 {
+      color: #3a7d6c;
+      border-left: 4px solid #d98e4a;
+      padding-left: 10px;
+      margin-top: 30px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    a {
+      color: #3a7d6c;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+    
+    .contact {
+      background-color: #f0e9dd;
+      padding: 15px;
+      border-radius: 10px;
+      margin-top: 30px;
+    }
   </style>
 </head>
 <body>
-  <h1>Привет! Я Железняк Виталий Максимович.</h1>
-  <p>Это мой личный сайт. Здесь я рассказываю о себе и своих проектах.</p>
-  <h2>Чем я занимаюсь</h2>
-  <ul>
-    <li>Пишу тексты</li>
-    <li>Готовлю борщ</li>
-    <li>Хожу в походы</li>
-  </ul>
-  <h2>Как меня найти</h2>
-  <p>ВКонтакте: <a href="https://"> </a></p>
+
+  <div class="card">
+    <h1>Железняк Виталий Максимович</h1>
+    <p class="subtitle">СТУДЕНТ ГРУППЫ ТоИП-329</p>
+
+    <h2>Обо мне</h2>
+    <p>Привет! Это моя главная страница. Здесь я собираю информацию о себе и своих проектах.</p>
+
+    <h2>Чем я занимаюсь</h2>
+    <ul>
+      <li>Учусь в колледже мкт</li>
+      <li>Много работаю, поэтому нет времени на конкурсы</li>
+      <li>Много тренируюсь</li>
+    </ul>
+
+    <h2>Связаться со мной</h2>
+    <div class="contact">
+      <p>К новым знакомства не открыт. Попробуйте написать: <a href="https://vk.com/ваша_ссылка" target="_blank">ВКонтакте</a></p>
+    </div>
+  </div>
+
 </body>
 </html>
